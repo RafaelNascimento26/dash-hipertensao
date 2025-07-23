@@ -1,0 +1,10 @@
+Age,Salt_Intake,Stress_Score,Sleep_Duration,BMI,BP_History,Medication,Family_History,Exercise_Level,Smoking_Status,Predicted_Hypertension,Prediction_Probability,Timestamp
+45,9,6,6.5,27,Normal,None,Yes,Low,Smoker,Não Hipertenso,10.13,2025-07-23 01:35:49
+27,6,6,6.5,29,Prehypertension,None,Yes,Moderate,Non-Smoker,Não Hipertenso,10.13,2025-07-23 01:39:35
+30,7,6,6.5,32,Prehypertension,None,Yes,Low,Smoker,Hipertenso,100.0,2025-07-23 01:46:16
+45,9,6,6.5,27,Normal,None,Yes,Low,Smoker,Não Hipertenso,10.13,2025-07-23 01:52:09
+45,9,6,6.5,27,Normal,None,Yes,Low,Smoker,Não Hipertenso,10.13,2025-07-23 01:52:22
+45,9,6,6.5,27,Normal,None,Yes,Low,Smoker,Não Hipertenso,10.13,2025-07-23 01:52:22
+45,9,6,6.5,27,Normal,None,Yes,Low,Smoker,Não Hipertenso,10.13,2025-07-23 01:52:38
+45,9,6,6.5,27,Normal,None,Yes,Low,Smoker,Não Hipertenso,10.13,2025-07-23 01:55:03
+59,4,6,6.5,27,Hypertension,ACE Inhibitor,Yes,Low,Smoker,Hipertenso,100.0,2025-07-23 02:12:28
