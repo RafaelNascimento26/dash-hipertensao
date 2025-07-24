@@ -136,8 +136,8 @@ def get_dashboard_stats(df_original, df_simulated, df_for_graphs):
         f"Hipertensos: {original_hypertension_counts['Hipertenso']}",
         f"Não Hipertensos: {original_hypertension_counts['Não Hipertenso']}",
         f"Total de pacientes: {total_simulated}",
-        f"Hipertensos Previstos: {simulated_hypertension_counts['Hipertenso']}",
-        f"Não Hipertensos Previstos: {simulated_hypertension_counts['Não Hipertenso']}",
+        f"Hipertensos: {simulated_hypertension_counts['Hipertenso']}",
+        f"Não Hipertensos: {simulated_hypertension_counts['Não Hipertenso']}",
         f"Total de pacientes: {total_combined}",
         f"Total Hipertensos: {combined_hypertension_counts['Hipertenso']}",
         f"Total Não Hipertensos: {combined_hypertension_counts['Não Hipertenso']}",
@@ -253,7 +253,7 @@ app.layout = dbc.Container([
                     ]), className="h-100 shadow-sm"), lg=4, md=12, className="mb-3"),
                 dbc.Col(dbc.Card(
                     dbc.CardBody([
-                        html.H4("Pacientes Simulados", className="card-title text-center text-primary"),
+                        html.H4("Dataset Novo", className="card-title text-center text-primary"),
                         html.P(initial_stats_output[3], id="total-simulated-patients",
                                className="card-text text-center"),
                         html.P(initial_stats_output[4], id="simulated-hypertensive-patients",
@@ -355,7 +355,7 @@ app.layout = dbc.Container([
 
     dbc.Card(
         dbc.CardBody([
-            html.H3("🔍 Simule um Paciente", className="card-title text-center mb-4"),
+            html.H3("🔍 Insira Dados do Paciente", className="card-title text-center mb-4"),
             html.P(  # Texto REVISADO para a seção de simulação
                 "Insira os dados de um paciente abaixo para que o modelo de Machine Learning possa prever o risco de hipertensão. Use os campos de entrada e selecione as opções nos menus suspensos. A previsão e uma explicação dos fatores mais influentes serão exibidos abaixo. Os dados desta simulação serão automaticamente armazenados, **contribuindo para análises futuras e para o aprimoramento contínuo da compreensão sobre a hipertensão.**",
                 className="text-muted text-center mb-4"
