@@ -8,7 +8,7 @@ MarkupSafe==2.1.5
 numpy==1.26.4
 pandas==2.2.2
 plotly==5.22.0
-python-dateutil==2.9.0
+python-dateutil==3.11
 pytz==2024.1
 scikit-learn==1.4.2
 scipy==1.13.0
