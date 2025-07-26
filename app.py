@@ -1190,5 +1190,5 @@ def index():
 
 
 # --- INICIALIZAÇÃO DO SERVIDOR ---
-# if __name__ == "__main__":
-    # server.run(debug=True, port=8050)
+if __name__ == "__main__":
+    server.run(debug=True, port=8050)
